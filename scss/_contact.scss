@@ -1,3 +1,9 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249,189,215);
+$verde: rgb(0,194,1);
+$gris-clarito: rgb(229, 229, 229);
+
 /* Ubicación de contact.html */
 
 #contact-main {
@@ -46,7 +52,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    background-color: rgb(255, 185, 242);
+    background-color: $rosa;
     border-radius: 1rem;
     padding: 1rem;
     margin: 1rem;
@@ -73,7 +79,7 @@
         font-size: 1.5rem;
         height: 50%;
         width: 80%;
-        background-color: rgb(229, 229, 229);
+        background-color: $gris-clarito;
         display: flex;
         flex-direction: column;
         justify-content: space-around;

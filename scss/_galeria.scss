@@ -1,3 +1,8 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249,189,215);
+$verde: rgb(0,194,1);
+
 .galeria {
     width: 90%;
     transform: translateX(5%);
@@ -28,7 +33,7 @@
     h3 {
         position: absolute;
         bottom: 0;
-        background-color: rgb(52, 196, 204);
+        background-color: $celeste;
         border-radius: 0 0 1rem 1rem;
         width: 100%;
         padding: 4px;
